@@ -123,17 +123,19 @@ function parseListingHtml(html) {
   while ((match = hrefRe.exec(html)) !== null) {
     const filename = match[1].split('/').pop(); // strip any path prefix
 
-    // Pattern 1: C13_Rad_202607072220.jpg
-    const channelMatch = filename.match(/^(C\d{2})_Rad_(\d{12})\.jpg$/);
+    // Pattern 1: C13_Rad_202607072220.jpg  (case-insensitive; productId normalised to
+    // uppercase so it matches def.id — the original filename is preserved for reference
+    // only, URLs are always built via urlBuilder(def.id, ts) not from filename).
+    const channelMatch = filename.match(/^(C\d{2})_Rad_(\d{12})\.jpg$/i);
     if (channelMatch) {
-      results.push({ filename, productId: channelMatch[1], ts: channelMatch[2] });
+      results.push({ filename, productId: channelMatch[1].toUpperCase(), ts: channelMatch[2] });
       continue;
     }
 
     // Pattern 2: TRUE_COLOR_202607072220.jpg / AIR_MASS_202607072220.jpg
-    const compositeMatch = filename.match(/^(.+?)_(\d{12})\.jpg$/);
+    const compositeMatch = filename.match(/^(.+?)_(\d{12})\.jpg$/i);
     if (compositeMatch) {
-      results.push({ filename, productId: compositeMatch[1], ts: compositeMatch[2] });
+      results.push({ filename, productId: compositeMatch[1].toUpperCase(), ts: compositeMatch[2] });
     }
   }
 
@@ -149,11 +151,13 @@ function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
-/** Fetch with exponential backoff retry */
+/** Fetch with exponential backoff retry.
+ *  res.ok is checked inside the loop so transient HTTP 5xx errors are retried. */
 async function fetchWithRetry(url, options = {}, retries = 3) {
   for (let attempt = 0; attempt < retries; attempt++) {
     try {
       const res = await fetch(url, options);
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
       return res;
     } catch (err) {
       if (attempt === retries - 1) throw err;
@@ -173,8 +177,8 @@ async function fetchListing(url) {
   if (FIXTURE_MODE) {
     return readFileSync(FIXTURE, 'utf8');
   }
+  // res.ok is already validated inside fetchWithRetry — no redundant check needed.
   const res = await fetchWithRetry(url, { signal: AbortSignal.timeout(15_000) });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
   return res.text();
 }
 

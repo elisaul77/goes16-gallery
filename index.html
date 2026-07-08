@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary meta -->
+  <title>GOES-16 · Colombia — Galería Satelital IDEAM</title>
+  <meta name="description"
+    content="Imágenes satelitales en tiempo casi real del satélite GOES-16 sobre Colombia y la región, proveídas por IDEAM y NOAA. Animaciones, galería de canales y time-lapse interactivo.">
+  <meta name="theme-color" content="#050911">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="GOES-16 · Colombia — Galería Satelital IDEAM">
+  <meta property="og:description"
+    content="Animaciones e imágenes satelitales del satélite GOES-16 sobre Colombia — IDEAM/NOAA.">
+  <meta property="og:image"       content="assets/og-preview.png">
+  <meta property="og:locale"      content="es_CO">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="GOES-16 · Colombia — Galería Satelital IDEAM">
+  <meta name="twitter:description"
+    content="Animaciones e imágenes satelitales del satélite GOES-16 sobre Colombia — IDEAM/NOAA.">
+  <meta name="twitter:image"       content="assets/og-preview.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+
+  <!-- ── Star field (populated by app.js via injected <style>) ── -->
+  <div class="stars-layer" aria-hidden="true"></div>
+
+  <!-- ── App loading screen ──────────────────────────────────── -->
+  <div id="app-loading" role="status" aria-live="polite" aria-label="Cargando datos del satélite">
+    <div class="loading-spinner" aria-hidden="true"></div>
+    <p>Cargando datos del satélite&hellip;</p>
+  </div>
+
+  <!-- ── App error screen ────────────────────────────────────── -->
+  <div id="app-error" role="alert" hidden>
+    <div class="app-error-icon" aria-hidden="true">⚠</div>
+    <p class="app-error-title">Error al cargar los datos</p>
+    <p class="error-message"></p>
+    <p style="font-size:0.8rem;margin-top:0.5rem;color:var(--text-dim)">
+      Revisa tu conexión e intenta recargar la página.
+    </p>
+  </div>
+
+  <!-- ── Main application ────────────────────────────────────── -->
+  <div id="app" hidden>
+
+    <!-- Header ──────────────────────────────────────────────── -->
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <div class="header-brand">
+          <img class="header-logo"
+               src="assets/favicon.svg"
+               alt=""
+               aria-hidden="true"
+               width="36"
+               height="36">
+          <div class="header-title-group">
+            <h1 class="site-title">GOES-16 · Colombia</h1>
+            <p class="site-subtitle">Imágenes satelitales IDEAM / NOAA</p>
+          </div>
+        </div>
+        <div class="header-meta">
+          <span id="updated-ago"
+                class="updated-badge"
+                aria-live="polite"
+                aria-atomic="true"
+                title="Hora de la última actualización del catálogo de imágenes">
+            Cargando&hellip;
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Tab navigation ──────────────────────────────────────── -->
+    <nav class="tab-nav" aria-label="Secciones principales">
+      <div role="tablist"
+           class="tab-list"
+           aria-label="Vistas disponibles">
+
+        <button role="tab"
+                class="tab-btn"
+                id="tab-animaciones"
+                data-tab="animaciones"
+                aria-selected="true"
+                tabindex="0"
+                aria-controls="panel-animaciones">
+          Animaciones
+        </button>
+
+        <button role="tab"
+                class="tab-btn"
+                id="tab-galeria"
+                data-tab="galeria"
+                aria-selected="false"
+                tabindex="-1"
+                aria-controls="panel-galeria">
+          Galería
+        </button>
+
+        <button role="tab"
+                class="tab-btn"
+                id="tab-timelapse"
+                data-tab="timelapse"
+                aria-selected="false"
+                tabindex="-1"
+                aria-controls="panel-timelapse">
+          Time-lapse
+        </button>
+
+      </div>
+    </nav>
+
+    <!-- Tab panels ──────────────────────────────────────────── -->
+    <main class="tab-panels" id="main-content">
+
+      <!-- Animaciones panel -->
+      <section id="panel-animaciones"
+               role="tabpanel"
+               aria-labelledby="tab-animaciones"
+               class="tab-panel"
+               tabindex="-1">
+        <!-- Populated by js/gifs.js on first activation -->
+      </section>
+
+      <!-- Galería panel -->
+      <section id="panel-galeria"
+               role="tabpanel"
+               aria-labelledby="tab-galeria"
+               class="tab-panel"
+               tabindex="-1"
+               hidden>
+        <!-- Populated by js/gallery.js on first activation -->
+      </section>
+
+      <!-- Time-lapse panel -->
+      <section id="panel-timelapse"
+               role="tabpanel"
+               aria-labelledby="tab-timelapse"
+               class="tab-panel"
+               tabindex="-1"
+               hidden>
+        <!-- Populated by js/timeline.js on first activation -->
+      </section>
+
+    </main>
+
+    <!-- Footer ──────────────────────────────────────────────── -->
+    <footer class="site-footer" role="contentinfo">
+      <p>
+        Imágenes: <a href="https://www.ideam.gov.co" target="_blank" rel="noopener">IDEAM</a>
+        &nbsp;·&nbsp;
+        Satélite <a href="https://www.goes-r.gov/" target="_blank" rel="noopener">GOES-16 (NOAA)</a>
+        &nbsp;·&nbsp;
+        Datos en tiempo casi real — uso educativo e informativo
+      </p>
+    </footer>
+
+  </div><!-- /#app -->
+
+  <!-- Entry point (ES module) -->
+  <script type="module" src="js/app.js"></script>
+
+</body>
+</html>

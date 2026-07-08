@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="GOES-16 Satellite">
+  <!-- Space background -->
+  <rect width="32" height="32" rx="6" fill="#050911"/>
+  <!-- Ambient nebula glow -->
+  <circle cx="14" cy="19" r="11" fill="rgba(0,60,120,0.35)"/>
+  <!-- Earth globe body -->
+  <circle cx="14" cy="19" r="8.5" fill="#061428" stroke="#00b4d8" stroke-width="1.4"/>
+  <!-- Globe meridian (centre vertical ellipse) -->
+  <ellipse cx="14" cy="19" rx="4.5" ry="8.5" fill="none" stroke="#005f80" stroke-width="0.65"/>
+  <!-- Globe parallels -->
+  <line x1="5.5" y1="19" x2="22.5" y2="19" stroke="#005f80" stroke-width="0.65"/>
+  <line x1="6.2" y1="13.5" x2="21.8" y2="13.5" stroke="#005f80" stroke-width="0.5" opacity="0.7"/>
+  <line x1="6.2" y1="24.5" x2="21.8" y2="24.5" stroke="#005f80" stroke-width="0.5" opacity="0.7"/>
+  <!-- Satellite body (upper-right) -->
+  <rect x="21.5" y="3.5" width="6" height="4" rx="1" fill="#00e5ff"/>
+  <rect x="21.5" y="4.2" width="0.8" height="2.6" fill="#0099bb"/>
+  <!-- Solar panels -->
+  <rect x="18.8" y="4.6" width="2.7" height="1.8" rx="0.3" fill="#48cae4"/>
+  <rect x="27.5" y="4.6" width="2.7" height="1.8" rx="0.3" fill="#48cae4"/>
+  <!-- Antenna signal line -->
+  <line x1="24.5" y1="7.5" x2="18" y2="13.5" stroke="#90e0ef" stroke-width="0.9" stroke-dasharray="2,1.2" opacity="0.8"/>
+  <!-- Ground reception dot with pulse ring -->
+  <circle cx="18" cy="13.5" r="1.8" fill="none" stroke="#00e5ff" stroke-width="0.7" opacity="0.5"/>
+  <circle cx="18" cy="13.5" r="1" fill="#00e5ff" opacity="0.9"/>
+  <!-- Stars -->
+  <circle cx="3.5" cy="5" r="0.75" fill="white" opacity="0.85"/>
+  <circle cx="28.5" cy="26" r="0.55" fill="white" opacity="0.65"/>
+  <circle cx="5" cy="27" r="0.5" fill="white" opacity="0.55"/>
+  <circle cx="28" cy="11" r="0.45" fill="white" opacity="0.5"/>
+  <circle cx="2.5" cy="15" r="0.4" fill="white" opacity="0.45"/>
+  <circle cx="29.5" cy="17" r="0.35" fill="white" opacity="0.35"/>
+</svg>
