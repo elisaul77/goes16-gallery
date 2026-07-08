@@ -50,15 +50,17 @@ export function initGallery(container, manifest) {
   const topRow = document.createElement('div');
   topRow.className = 'gallery-top';
 
-  // Region selector
+  // Region selector — <label for="..."> properly associated with <select id="...">
   const regionWrap = document.createElement('div');
   regionWrap.className = 'control-group';
-  regionWrap.append(_label('Región'));
-  regionWrap.appendChild(buildRegionSelect(JPG_REGIONS, _regionKey, rk => {
+  regionWrap.append(_label('Región', 'gallery-region-sel'));
+  const galRegionSel = buildRegionSelect(JPG_REGIONS, _regionKey, rk => {
     _regionKey = rk;
     _rebuildProductSelector();
     _renderGrid();
-  }));
+  });
+  galRegionSel.id = 'gallery-region-sel';
+  regionWrap.appendChild(galRegionSel);
 
   // Product selector (mutable container, rebuilt on region change)
   _prodContainerEl = document.createElement('div');
@@ -87,12 +89,14 @@ function _buildProductSelector() {
   }
 
   _prodContainerEl.innerHTML = '';
-  _prodContainerEl.appendChild(_label('Producto / Canal'));
+  // <label for="..."> associated with the rebuilt <select> via stable ID
+  _prodContainerEl.appendChild(_label('Producto / Canal', 'gallery-product-sel'));
 
   const sel = buildProductSelect(products, _productId, pid => {
     _productId = pid;
     _renderGrid();
   });
+  sel.id = 'gallery-product-sel';
   _prodContainerEl.appendChild(sel);
 }
 
@@ -228,9 +232,15 @@ function _emptyMsg(text) {
   return p;
 }
 
-function _label(text) {
+/**
+ * Create a <label> element associated with a form control.
+ * @param {string} text    - visible label text
+ * @param {string} [forId] - value for the `for` attribute (the control's id)
+ */
+function _label(text, forId) {
   const el = document.createElement('label');
   el.className = 'control-label';
   el.textContent = text;
+  if (forId) el.htmlFor = forId;
   return el;
 }

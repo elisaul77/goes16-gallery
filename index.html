@@ -9,13 +9,15 @@
   <meta name="description"
     content="Imágenes satelitales en tiempo casi real del satélite GOES-16 sobre Colombia y la región, proveídas por IDEAM y NOAA. Animaciones, galería de canales y time-lapse interactivo.">
   <meta name="theme-color" content="#050911">
+  <link rel="canonical" href="https://elisaul77.github.io/goes16-gallery/">
 
   <!-- Open Graph -->
   <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://elisaul77.github.io/goes16-gallery/">
   <meta property="og:title"       content="GOES-16 · Colombia — Galería Satelital IDEAM">
   <meta property="og:description"
     content="Animaciones e imágenes satelitales del satélite GOES-16 sobre Colombia — IDEAM/NOAA.">
-  <meta property="og:image"       content="assets/og-preview.png">
+  <meta property="og:image"       content="https://elisaul77.github.io/goes16-gallery/assets/og-preview.png">
   <meta property="og:locale"      content="es_CO">
 
   <!-- Twitter Card -->
@@ -23,16 +25,22 @@
   <meta name="twitter:title"       content="GOES-16 · Colombia — Galería Satelital IDEAM">
   <meta name="twitter:description"
     content="Animaciones e imágenes satelitales del satélite GOES-16 sobre Colombia — IDEAM/NOAA.">
-  <meta name="twitter:image"       content="assets/og-preview.png">
+  <meta name="twitter:image"       content="https://elisaul77.github.io/goes16-gallery/assets/og-preview.png">
 
   <!-- Favicon -->
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Resource hints -->
+  <link rel="preload" as="fetch" href="data/manifest.json" crossorigin>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body>
+
+  <!-- ── Skip navigation ────────────────────────────────────────── -->
+  <a href="#main-content" class="skip-link">Saltar al contenido</a>
 
   <!-- ── Star field (populated by app.js via injected <style>) ── -->
   <div class="stars-layer" aria-hidden="true"></div>

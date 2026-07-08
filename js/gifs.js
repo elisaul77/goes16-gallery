@@ -52,21 +52,23 @@ export function initGifs(container, manifest, initialState = {}) {
   const controls = document.createElement('div');
   controls.className = 'hero-controls';
 
-  // Region selector
+  // Region selector — <label for="..."> properly associated with <select id="...">
   const regionWrap = document.createElement('div');
   regionWrap.className = 'control-group';
-  const regionLabel = _label('Región');
+  const regionLabel = _label('Región', 'gifs-region-sel');
   const regionSel   = buildRegionSelect(regions, _regionId, id => {
     _regionId = id;
     _refreshCatGrid();
     _load();
   });
+  regionSel.id = 'gifs-region-sel';
   regionWrap.append(regionLabel, regionSel);
 
-  // Category segmented control
+  // Category segmented control — uses <span> (not <label>) because it labels a
+  // button group; the group itself carries aria-label="Tipo de imagen".
   const catWrap = document.createElement('div');
   catWrap.className = 'control-group';
-  const catLabel = _label('Canal');
+  const catLabel = _labelSpan('Canal');
   _segEl = buildCategorySegmented(categories, _catKey, key => {
     _catKey = key;
     _syncCatCards();
@@ -288,9 +290,25 @@ function _buildCatCard(key, cat) {
   return card;
 }
 
-/** Helper to create a labeled span for control groups. */
-function _label(text) {
+/**
+ * Create a <label> element associated with a form control.
+ * @param {string} text   - visible label text
+ * @param {string} [forId] - value for the `for` attribute (the control's id)
+ */
+function _label(text, forId) {
   const el = document.createElement('label');
+  el.className = 'control-label';
+  el.textContent = text;
+  if (forId) el.htmlFor = forId;
+  return el;
+}
+
+/**
+ * Create a <span> label for non-form controls (button groups, segmented controls).
+ * @param {string} text
+ */
+function _labelSpan(text) {
+  const el = document.createElement('span');
   el.className = 'control-label';
   el.textContent = text;
   return el;

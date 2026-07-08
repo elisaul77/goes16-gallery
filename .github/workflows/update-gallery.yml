@@ -1,0 +1,88 @@
+name: Actualizar galería GOES-16
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+
+concurrency:
+  group: gallery-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  # ── Job 1: Actualizar manifest desde IDEAM ─────────────────────────────────
+  # Solo se ejecuta en schedule y dispatch manual, no en push directo.
+  update-manifest:
+    name: Actualizar manifest satelital
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generar manifest desde IDEAM
+        # NODE_TLS_REJECT_UNAUTHORIZED=0 solo en este step para aceptar el
+        # certificado autofirmado del servidor de IDEAM.
+        run: node scripts/build-manifest.mjs
+        env:
+          NODE_TLS_REJECT_UNAUTHORIZED: '0'
+
+      - name: Commitear manifest si cambió
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/manifest.json
+          if git diff --staged --quiet; then
+            echo "manifest.json sin cambios — nada que commitear"
+          else
+            git commit -m "chore: actualizar manifest satelital [bot]"
+            git push
+          fi
+
+  # ── Job 2: Publicar en GitHub Pages ───────────────────────────────────────
+  # Se ejecuta siempre (if: always()) para que un push directo a main también
+  # despliegue aunque update-manifest esté omitido (skipped).
+  # Cuando ambos corren, deploy espera a update-manifest y luego hace checkout
+  # de la rama main ya con el commit del bot incluido.
+  deploy:
+    name: Publicar en GitHub Pages
+    runs-on: ubuntu-latest
+    needs: update-manifest
+    if: always()
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repositorio (HEAD de main tras posible push del bot)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Subir artefacto de Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
