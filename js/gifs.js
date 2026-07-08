@@ -248,12 +248,20 @@ function _buildCatCard(key, cat) {
   img.width  = 400;
   img.height = 300;
 
+  // Per-card error state (independent from the rest of the page)
+  const cardErr = document.createElement('div');
+  cardErr.className = 'cat-card-error hidden';
+  cardErr.setAttribute('aria-hidden', 'true');
+  cardErr.innerHTML = '<span aria-hidden="true">⚠</span><span>No disponible</span>';
+
   const url = gifUrl(_manifest, _regionId, key);
-  img.onload  = () => { skel.classList.add('hidden'); img.classList.remove('hidden'); };
-  img.onerror = () => { skel.classList.add('hidden'); imgWrap.classList.add('img-error'); };
+  img.onload  = () => { skel.classList.add('hidden'); img.classList.remove('hidden'); cardErr.classList.add('hidden'); };
+  img.onerror = () => { skel.classList.add('hidden'); cardErr.classList.remove('hidden'); };
+  // Retry on click of the error area
+  cardErr.addEventListener('click', e => { e.stopPropagation(); cardErr.classList.add('hidden'); skel.classList.remove('hidden'); img.src = url + '&r=' + Date.now(); });
   img.src = url;
 
-  imgWrap.append(skel, img);
+  imgWrap.append(skel, img, cardErr);
 
   // Card body
   const body = document.createElement('div');
