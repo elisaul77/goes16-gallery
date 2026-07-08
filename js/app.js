@@ -10,10 +10,10 @@
  *  5. Lazy-initialize each tab panel on first activation
  */
 
-import { loadManifest } from './manifest.js';
-import { initGifs }     from './gifs.js';
-import { initGallery }  from './gallery.js';
-import { initTimeline } from './timeline.js';
+import { loadManifest }               from './manifest.js';
+import { initGifs }                   from './gifs.js';
+import { initGallery }                from './gallery.js';
+import { initTimeline, pauseTimeline } from './timeline.js';
 
 // ── Tab configuration ─────────────────────────────────────────────────────────
 
@@ -96,6 +96,13 @@ function initTabs(manifest) {
   const tabPanels = Array.from(document.querySelectorAll('[role="tabpanel"]'));
 
   function activateTab(tabId) {
+    // Pause time-lapse if navigating away from it, so the setInterval does
+    // not keep firing and modifying _viewerImg.src in the background.
+    const prevTab = tabBtns.find(b => b.getAttribute('aria-selected') === 'true');
+    if (prevTab?.dataset.tab === 'timelapse' && tabId !== 'timelapse') {
+      pauseTimeline();
+    }
+
     // Update tab buttons
     tabBtns.forEach(btn => {
       const active = btn.dataset.tab === tabId;

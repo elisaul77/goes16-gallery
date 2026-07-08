@@ -188,6 +188,15 @@ export function initTimeline(container, manifest) {
   _loadFrames();
 }
 
+/**
+ * Pause playback.  Called externally by app.js when the user navigates
+ * away from the time-lapse tab so the setInterval does not keep firing
+ * and assigning _viewerImg.src in the background.
+ */
+export function pauseTimeline() {
+  _pause();
+}
+
 // ── Private: product selector ─────────────────────────────────────────────────
 
 function _buildProductSelector() {

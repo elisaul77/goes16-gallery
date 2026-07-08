@@ -194,18 +194,20 @@ function _buildCatGrid() {
 /** Rebuild GIF src in each category card when region changes. */
 function _refreshCatGrid() {
   _catGridEl.querySelectorAll('.cat-card').forEach(card => {
-    const key = card.dataset.cat;
-    const img = card.querySelector('.cat-card-img');
-    const skel = card.querySelector('.cat-card-skeleton');
+    const key     = card.dataset.cat;
+    const img     = card.querySelector('.cat-card-img');
+    const skel    = card.querySelector('.cat-card-skeleton');
+    const imgWrap = card.querySelector('.cat-card-img-wrap');
     if (!img || !key) return;
 
-    // Reset to loading state
+    // Reset to loading state (clear any previous error state)
     img.classList.add('hidden');
+    imgWrap?.classList.remove('img-error');
     skel?.classList.remove('hidden');
 
     const url = gifUrl(_manifest, _regionId, key);
-    img.onload = () => { skel?.classList.add('hidden'); img.classList.remove('hidden'); };
-    img.onerror = () => { skel?.classList.add('hidden'); };
+    img.onload  = () => { skel?.classList.add('hidden'); img.classList.remove('hidden'); };
+    img.onerror = () => { skel?.classList.add('hidden'); imgWrap?.classList.add('img-error'); };
     img.src = url;
   });
 }
@@ -246,7 +248,7 @@ function _buildCatCard(key, cat) {
 
   const url = gifUrl(_manifest, _regionId, key);
   img.onload  = () => { skel.classList.add('hidden'); img.classList.remove('hidden'); };
-  img.onerror = () => { skel.classList.add('hidden'); };
+  img.onerror = () => { skel.classList.add('hidden'); imgWrap.classList.add('img-error'); };
   img.src = url;
 
   imgWrap.append(skel, img);
