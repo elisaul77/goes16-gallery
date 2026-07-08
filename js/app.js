@@ -175,26 +175,40 @@ async function bootstrap() {
   const errorEl   = document.getElementById('app-error');
   const appEl     = document.getElementById('app');
 
+  // ── Step 1: load manifest (only this can trigger the full-screen error) ──
+  let manifest;
   try {
-    const manifest = await loadManifest();
-
-    // Hide loading overlay, reveal app
-    if (loadingEl) loadingEl.hidden = true;
-    if (appEl)     appEl.hidden = false;
-
-    startAgoTicker(manifest.generated_utc);
-    initTabs(manifest);
-
+    manifest = await loadManifest();
   } catch (err) {
-    console.error('[GOES-16] Bootstrap failed:', err);
-
+    console.error('[GOES-16] Manifest load failed:', err);
     if (loadingEl) loadingEl.hidden = true;
-
     if (errorEl) {
       errorEl.hidden = false;
       const msgEl = errorEl.querySelector('.error-message');
       if (msgEl) msgEl.textContent = err.message;
     }
+    return; // stop here — cannot render without data
+  }
+
+  // ── Step 2: reveal the app shell (manifest is ready) ──
+  if (loadingEl) loadingEl.hidden = true;
+  if (appEl)     appEl.hidden = false;
+
+  startAgoTicker(manifest.generated_utc);
+
+  // ── Step 3: init tabs — errors here must NOT collapse the whole page ──
+  // Each tab may fail independently (e.g. DOM quirk, bad manifest field)
+  // without hiding the rest of the app or showing the full-screen error.
+  try {
+    initTabs(manifest);
+  } catch (err) {
+    // Tab init failed: log it and show a non-blocking inline warning.
+    // The user can still reload or use other tabs.
+    console.error('[GOES-16] Tab init failed:', err);
+    const warn = document.createElement('p');
+    warn.style.cssText = 'color:#f87;text-align:center;padding:1rem;font-size:0.9rem';
+    warn.textContent = `Error al inicializar la interfaz: ${err.message}`;
+    appEl?.prepend(warn);
   }
 }
 
