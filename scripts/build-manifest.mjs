@@ -84,24 +84,37 @@ const GLOBAL_CHANNELS = [
 
 // ─── URL helpers ─────────────────────────────────────────────────────────────
 
-/** Listing URL for a given region folder */
-function listingUrl(regionFolder) {
-  return `${BASE_URL}/${regionFolder}/`;
+/**
+ * Listing URL for a product subfolder within a region.
+ * Real IDEAM structure: Colombia/{PRODUCT_ID}/ (one subfolder per product).
+ * Example: /geotiff/goes16/Colombia/C13/ or /geotiff/goes16/Colombia/AIR_MASS/
+ */
+function productListingUrl(regionFolder, productId) {
+  return `${BASE_URL}/${regionFolder}/${productId}/`;
 }
 
-/** Image URL for Colombia channel frames */
+/**
+ * Image URL for Colombia channel frames.
+ * Files live in per-channel subfolder: Colombia/{C##}/{C##}_Rad_{ts}.jpg
+ */
 function colombiaChannelUrl(channelId, ts) {
-  return `${BASE_URL}/Colombia/${channelId}_Rad_${ts}.jpg`;
+  return `${BASE_URL}/Colombia/${channelId}/${channelId}_Rad_${ts}.jpg`;
 }
 
-/** Image URL for Colombia composite frames */
+/**
+ * Image URL for Colombia composite/product frames.
+ * Files live in per-product subfolder: Colombia/{PRODUCT}/{PRODUCT}_{ts}.jpg
+ */
 function colombiaCompositeUrl(productId, ts) {
-  return `${BASE_URL}/Colombia/${productId}_${ts}.jpg`;
+  return `${BASE_URL}/Colombia/${productId}/${productId}_${ts}.jpg`;
 }
 
-/** Image URL for Global channel frames */
+/**
+ * Image URL for Global channel frames.
+ * Files live in per-channel subfolder: Global/{C##}/{C##}_Rad_{ts}.jpg
+ */
 function globalChannelUrl(channelId, ts) {
-  return `${BASE_URL}/Global/${channelId}_Rad_${ts}.jpg`;
+  return `${BASE_URL}/Global/${channelId}/${channelId}_Rad_${ts}.jpg`;
 }
 
 // ─── HTML parsing ─────────────────────────────────────────────────────────────
@@ -224,37 +237,7 @@ async function verifyGif(url) {
   }
 }
 
-// ─── Product builder ──────────────────────────────────────────────────────────
-
-/**
- * Build frames array for a set of products from a single listing HTML.
- * @param {string} html           - directory listing HTML
- * @param {Array}  productDefs    - array of { id, label, type }
- * @param {Function} urlBuilder   - (productId, ts) => absoluteUrl
- * @returns {Object}              - { [productId]: { label, type, frames } }
- */
-function buildProductFrames(html, productDefs, urlBuilder) {
-  const allEntries = parseListingHtml(html);
-
-  const products = {};
-  for (const def of productDefs) {
-    // For channels the productId in the listing matches def.id (e.g. 'C13')
-    // For composites it matches def.id too (e.g. 'TRUE_COLOR')
-    const entries = allEntries
-      .filter(e => e.productId === def.id)
-      .slice(0, MAX_FRAMES);
-
-    products[def.id] = {
-      label: def.label,
-      type:  def.type,
-      frames: entries.map(e => ({
-        ts:  e.ts,
-        url: urlBuilder(def.id, e.ts),
-      })),
-    };
-  }
-  return products;
-}
+// ─── Product builder (see fetchProductFrames inside main) ─────────────────────
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
@@ -290,55 +273,71 @@ async function main() {
     },
   };
 
-  // ── JPG listings ───────────────────────────────────────────────────────────
+  // ── JPG listings (per-product subfolder) ──────────────────────────────────
+  //
+  // Real IDEAM structure: each product lives in its own subfolder.
+  //   Colombia/C13/C13_Rad_202607072220.jpg
+  //   Colombia/AIR_MASS/AIR_MASS_202607072220.jpg
+  //   Global/C02/C02_Rad_202607072220.jpg
+  //
+  // Fixture mode: fetchListing ignores the URL and returns the same flat
+  // fixture file for every call — filtering by productId still works.
 
   let successCount = 0;
 
-  // Colombia listing
-  try {
-    const colombiaHtml = await fetchListing(listingUrl('Colombia'));
-    const channelProds  = buildProductFrames(
-      colombiaHtml,
-      COLOMBIA_CHANNELS,
-      colombiaChannelUrl
-    );
-    const compositeProds = buildProductFrames(
-      colombiaHtml,
-      COLOMBIA_COMPOSITES,
-      colombiaCompositeUrl
-    );
-    manifest.regions.Colombia.products = { ...channelProds, ...compositeProds };
-    successCount += Object.values(manifest.regions.Colombia.products)
-      .filter(p => p.frames.length > 0).length;
-    console.log(`Colombia: ${Object.keys(manifest.regions.Colombia.products).length} products parsed`);
-  } catch (err) {
-    console.error(`Colombia listing failed: ${err.message}`);
-    // Mark all Colombia products with empty frames
-    for (const def of [...COLOMBIA_CHANNELS, ...COLOMBIA_COMPOSITES]) {
-      manifest.regions.Colombia.products[def.id] = {
-        label: def.label, type: def.type, frames: [],
+  /**
+   * Fetch the directory listing for one product's subfolder and extract frames.
+   * @param {string}   regionFolder - 'Colombia' | 'Global'
+   * @param {Object}   def          - { id, label, type }
+   * @param {Function} urlBuilder   - (productId, ts) => absoluteUrl
+   */
+  async function fetchProductFrames(regionFolder, def, urlBuilder) {
+    const listUrl = FIXTURE_MODE
+      ? null  // ignored by fetchListing in fixture mode
+      : productListingUrl(regionFolder, def.id);
+    try {
+      const html    = await fetchListing(listUrl);
+      const all     = parseListingHtml(html);
+      const entries = all.filter(e => e.productId === def.id).slice(0, MAX_FRAMES);
+      return {
+        label: def.label,
+        type:  def.type,
+        frames: entries.map(e => ({ ts: e.ts, url: urlBuilder(def.id, e.ts) })),
       };
+    } catch (err) {
+      console.warn(`${regionFolder}/${def.id} listing failed: ${err.message}`);
+      return { label: def.label, type: def.type, frames: [] };
     }
   }
 
-  // Global listing
-  try {
-    const globalHtml = await fetchListing(listingUrl('Global'));
-    manifest.regions.Global.products = buildProductFrames(
-      globalHtml,
-      GLOBAL_CHANNELS,
-      globalChannelUrl
+  // Colombia — fetch all product subfolders in parallel
+  {
+    const colDefs = [
+      ...COLOMBIA_CHANNELS.map(d => ({ ...d, urlFn: colombiaChannelUrl })),
+      ...COLOMBIA_COMPOSITES.map(d => ({ ...d, urlFn: colombiaCompositeUrl })),
+    ];
+    const colResults = await Promise.all(
+      colDefs.map(d => fetchProductFrames('Colombia', d, d.urlFn))
     );
-    successCount += Object.values(manifest.regions.Global.products)
-      .filter(p => p.frames.length > 0).length;
-    console.log(`Global: ${Object.keys(manifest.regions.Global.products).length} products parsed`);
-  } catch (err) {
-    console.error(`Global listing failed: ${err.message}`);
-    for (const def of GLOBAL_CHANNELS) {
-      manifest.regions.Global.products[def.id] = {
-        label: def.label, type: def.type, frames: [],
-      };
-    }
+    colDefs.forEach((d, i) => {
+      manifest.regions.Colombia.products[d.id] = colResults[i];
+    });
+    const colSuccess = colResults.filter(p => p.frames.length > 0).length;
+    successCount += colSuccess;
+    console.log(`Colombia: ${colDefs.length} products, ${colSuccess} with frames`);
+  }
+
+  // Global — same pattern
+  {
+    const gloResults = await Promise.all(
+      GLOBAL_CHANNELS.map(d => fetchProductFrames('Global', d, globalChannelUrl))
+    );
+    GLOBAL_CHANNELS.forEach((d, i) => {
+      manifest.regions.Global.products[d.id] = gloResults[i];
+    });
+    const gloSuccess = gloResults.filter(p => p.frames.length > 0).length;
+    successCount += gloSuccess;
+    console.log(`Global: ${GLOBAL_CHANNELS.length} products, ${gloSuccess} with frames`);
   }
 
   // ── GIF verification ───────────────────────────────────────────────────────
