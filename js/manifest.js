@@ -18,19 +18,33 @@ let _cache = null;
  */
 export async function loadManifest() {
   for (const url of [PRIMARY, FALLBACK]) {
+    // Network fetch — no credentials option: plain same-origin request.
+    // (A prior preload hint with crossorigin was removed; credentials: 'omit'
+    // caused opaque-response issues in some Android WebViews.)
+    let res;
     try {
-      // credentials:'omit' aligns with <link rel="preload" as="fetch" crossorigin>
-      // (crossorigin=anonymous → credentials omit), so the browser reuses the
-      // preloaded response from cache instead of making a second round-trip.
-      const res = await fetch(url, { credentials: 'omit' });
-      if (!res.ok) continue;
+      res = await fetch(url);
+    } catch (netErr) {
+      console.warn(`[manifest] ${url} — network error: ${netErr.message}`);
+      continue; // try FALLBACK
+    }
+
+    if (!res.ok) {
+      console.warn(`[manifest] ${url} — HTTP ${res.status}`);
+      continue; // try FALLBACK
+    }
+
+    // Parse JSON in a separate try so a malformed body also falls through.
+    try {
       _cache = await res.json();
       _cache._sourceUrl = url;
       return _cache;
-    } catch {
-      // try next source
+    } catch (parseErr) {
+      console.warn(`[manifest] ${url} — JSON parse error: ${parseErr.message}`);
+      // continue to FALLBACK
     }
   }
+
   throw new Error(
     'No se pudo cargar el manifiesto de imágenes. Verifica tu conexión.'
   );
