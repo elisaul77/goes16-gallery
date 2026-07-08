@@ -52,10 +52,13 @@
   <div id="app-error" role="alert" hidden>
     <div class="app-error-icon" aria-hidden="true">⚠</div>
     <p class="app-error-title">Error al cargar los datos</p>
-    <p class="error-message"></p>
+    <p class="error-message" style="font-size:0.85rem;color:#f87;margin:0.4rem 0"></p>
     <p style="font-size:0.8rem;margin-top:0.5rem;color:var(--text-dim)">
       Revisa tu conexión e intenta recargar la página.
     </p>
+    <button onclick="location.reload()" style="margin-top:1rem;padding:0.5rem 1.4rem;border-radius:8px;border:none;background:var(--accent);color:#000;font-weight:600;cursor:pointer">
+      Recargar
+    </button>
   </div>
 
   <!-- ── Main application ────────────────────────────────────── -->
@@ -175,7 +178,7 @@
   </div><!-- /#app -->
 
   <!-- Entry point (ES module) -->
-  <script type="module" src="js/app.js"></script>
+  <script type="module" src="js/app.js?v=3"></script>
 
 </body>
 </html>

@@ -10,9 +10,9 @@
  *  - Skeleton disappears on image load; error state shown on failure.
  */
 
-import { getProducts, getFrames, formatTimestamp } from './manifest.js';
-import { buildRegionSelect, buildProductSelect } from './selector.js';
-import { openLightbox } from './lightbox.js';
+import { getProducts, getFrames, formatTimestamp } from './manifest.js?v=3';
+import { buildRegionSelect, buildProductSelect } from './selector.js?v=3';
+import { openLightbox } from './lightbox.js?v=3';
 
 // Two "region keys" for JPG regions (different from the 23 GIF regions)
 const JPG_REGIONS = [

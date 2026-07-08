@@ -10,10 +10,10 @@
  *  5. Lazy-initialize each tab panel on first activation
  */
 
-import { loadManifest }               from './manifest.js';
-import { initGifs }                   from './gifs.js';
-import { initGallery }                from './gallery.js';
-import { initTimeline, pauseTimeline } from './timeline.js';
+import { loadManifest }               from './manifest.js?v=3';
+import { initGifs }                   from './gifs.js?v=3';
+import { initGallery }                from './gallery.js?v=3';
+import { initTimeline, pauseTimeline } from './timeline.js?v=3';
 
 // ── Tab configuration ─────────────────────────────────────────────────────────
 

@@ -6,6 +6,8 @@
 
 const PRIMARY  = 'data/manifest.json';
 const FALLBACK = 'data/manifest.sample.json';
+// Last-resort: minimal manifest embedded inline in the HTML by the workflow
+const INLINE_ID = 'manifest-inline';
 
 /** @type {Object|null} */
 let _cache = null;
@@ -45,8 +47,21 @@ export async function loadManifest() {
     }
   }
 
+  // Last resort: try the inline manifest embedded in the HTML by the build step
+  const inlineEl = document.getElementById(INLINE_ID);
+  if (inlineEl) {
+    try {
+      _cache = JSON.parse(inlineEl.textContent);
+      _cache._sourceUrl = 'inline';
+      return _cache;
+    } catch (e) {
+      console.warn('[manifest] inline parse error:', e.message);
+    }
+  }
+
   throw new Error(
-    'No se pudo cargar el manifiesto de imágenes. Verifica tu conexión.'
+    'No se pudo cargar el manifiesto de imágenes. ' +
+    'Verifica tu conexión a internet e intenta de nuevo.'
   );
 }
 

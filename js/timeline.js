@@ -13,9 +13,9 @@
  *  - Click on viewer opens lightbox
  */
 
-import { getProducts, getFrames, formatTimestamp } from './manifest.js';
-import { buildRegionSelect, buildProductSelect, setActiveSegmented } from './selector.js';
-import { openLightbox } from './lightbox.js';
+import { getProducts, getFrames, formatTimestamp } from './manifest.js?v=3';
+import { buildRegionSelect, buildProductSelect, setActiveSegmented } from './selector.js?v=3';
+import { openLightbox } from './lightbox.js?v=3';
 
 const JPG_REGIONS = [
   { id: 'Colombia', label: 'Colombia' },

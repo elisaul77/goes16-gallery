@@ -10,9 +10,9 @@
  *   [cat-grid: 3 smaller GIF cards — clicking one switches the hero]
  */
 
-import { gifUrl, getGifRegions, getCategories } from './manifest.js';
-import { buildRegionSelect, buildCategorySegmented, setActiveSegmented } from './selector.js';
-import { openLightbox } from './lightbox.js';
+import { gifUrl, getGifRegions, getCategories } from './manifest.js?v=3';
+import { buildRegionSelect, buildCategorySegmented, setActiveSegmented } from './selector.js?v=3';
+import { openLightbox } from './lightbox.js?v=3';
 
 // ── Module state ──────────────────────────────────────────────────────────────
 

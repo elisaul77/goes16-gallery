@@ -54,11 +54,33 @@ jobs:
         env:
           NODE_TLS_REJECT_UNAUTHORIZED: '0'
 
+      - name: Inyectar manifest inline en index.html
+        # Embeds a compact version of the manifest into a <script type="application/json">
+        # tag so the app always has data even if fetch() is blocked (VPN, flaky network).
+        run: node -e "
+          const fs = require('fs');
+          const html = fs.readFileSync('index.html', 'utf8');
+          const m = JSON.parse(fs.readFileSync('data/manifest.json', 'utf8'));
+          // Minimal inline: gifs section + first 6 frames per product only
+          const mini = { generated_utc: m.generated_utc, source: m.source, gifs: m.gifs, regions: {} };
+          for (const [rk, rv] of Object.entries(m.regions)) {
+            mini.regions[rk] = { products: {} };
+            for (const [pk, pv] of Object.entries(rv.products)) {
+              mini.regions[rk].products[pk] = { ...pv, frames: pv.frames.slice(0, 6) };
+            }
+          }
+          const tag = '<script type=\"application/json\" id=\"manifest-inline\">' +
+                      JSON.stringify(mini) + '<\/script>';
+          const updated = html.replace(/(<script type=\"application\/json\" id=\"manifest-inline\">[\s\S]*?<\/script>|(?=<\/body>))/, tag + '\n');
+          fs.writeFileSync('index.html', updated);
+          console.log('inline manifest injected, generated_utc:', mini.generated_utc);
+        "
+
       - name: Commitear manifest si cambió
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/manifest.json
+          git add data/manifest.json index.html
           if git diff --staged --quiet; then
             echo "manifest.json sin cambios — nada que commitear"
           else
