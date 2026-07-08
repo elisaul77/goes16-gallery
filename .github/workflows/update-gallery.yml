@@ -37,6 +37,16 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Diagnóstico — primeras líneas del listing de IDEAM
+        # Muestra el formato real del servidor para facilitar depuración
+        continue-on-error: true
+        run: |
+          curl -sk --max-time 15 \
+            "https://bart.ideam.gov.co/geotiff/goes16/Colombia/" \
+            | head -c 800 || echo "curl failed"
+        env:
+          {}
+
       - name: Generar manifest desde IDEAM
         # NODE_TLS_REJECT_UNAUTHORIZED=0 solo en este step para aceptar el
         # certificado autofirmado del servidor de IDEAM.

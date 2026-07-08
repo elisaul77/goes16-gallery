@@ -107,40 +107,58 @@ function globalChannelUrl(channelId, ts) {
 // ─── HTML parsing ─────────────────────────────────────────────────────────────
 
 /**
- * Parse an Apache-style directory listing HTML and return an array of
+ * Parse an Apache/Nginx-style directory listing HTML and return an array of
  * { filename, ts } objects for .jpg files, sorted descending by timestamp.
  *
- * Handles two filename patterns:
- *   C{NN}_Rad_{TIMESTAMP}.jpg   → channel
- *   {PRODUCT}_{TIMESTAMP}.jpg   → composite (TIMESTAMP = last numeric segment)
+ * Robust parsing:
+ *  - Handles both single and double-quoted href attributes.
+ *  - Strips path prefixes and query strings from filenames.
+ *  - Accepts timestamps of 10–14 digits (truncated to 12 for YYYYMMDDHHmm).
+ *
+ * Filename patterns:
+ *   C{NN}_Rad_{TIMESTAMP}.jpg    → channel (C01–C16)
+ *   {PRODUCT}_{TIMESTAMP}.jpg    → composite product
  */
 function parseListingHtml(html) {
-  // Match hrefs pointing to .jpg files
-  const hrefRe = /href="([^"]+\.jpg)"/gi;
+  // Match hrefs pointing to .jpg/.jpeg files.
+  // Supports both single-quoted and double-quoted href values.
+  const hrefRe = /href=["']([^"']+\.jpe?g)["']/gi;
   const results = [];
   let match;
 
   while ((match = hrefRe.exec(html)) !== null) {
-    const filename = match[1].split('/').pop(); // strip any path prefix
+    // Strip path prefix (e.g. /geotiff/goes16/Colombia/) and query string
+    const filename = match[1].split('/').pop().split('?')[0];
+    if (!filename) continue;
 
-    // Pattern 1: C13_Rad_202607072220.jpg  (case-insensitive; productId normalised to
-    // uppercase so it matches def.id — the original filename is preserved for reference
-    // only, URLs are always built via urlBuilder(def.id, ts) not from filename).
-    const channelMatch = filename.match(/^(C\d{2})_Rad_(\d{12})\.jpg$/i);
+    // Pattern 1: C13_Rad_202607072220.jpg or C13_Rad_20260708003000.jpg
+    // Accepts 10–14 digit timestamps; truncates to first 12 (YYYYMMDDHHmm).
+    const channelMatch = filename.match(/^(C\d{2})_Rad_(\d{10,14})\.jpe?g$/i);
     if (channelMatch) {
-      results.push({ filename, productId: channelMatch[1].toUpperCase(), ts: channelMatch[2] });
+      const ts = channelMatch[2].slice(0, 12);
+      results.push({ filename, productId: channelMatch[1].toUpperCase(), ts });
       continue;
     }
 
     // Pattern 2: TRUE_COLOR_202607072220.jpg / AIR_MASS_202607072220.jpg
-    const compositeMatch = filename.match(/^(.+?)_(\d{12})\.jpg$/i);
+    // productId = everything before the final _TIMESTAMP segment
+    const compositeMatch = filename.match(/^(.+?)_(\d{10,14})\.jpe?g$/i);
     if (compositeMatch) {
-      results.push({ filename, productId: compositeMatch[1].toUpperCase(), ts: compositeMatch[2] });
+      const ts = compositeMatch[2].slice(0, 12);
+      results.push({ filename, productId: compositeMatch[1].toUpperCase(), ts });
     }
   }
 
   // Sort descending by timestamp string (YYYYMMDDHHmm — lexicographic = chronological)
   results.sort((a, b) => b.ts.localeCompare(a.ts));
+
+  // Diagnostic: in real mode with zero results, dump a sample of the listing
+  // so CI logs reveal the actual server format.
+  if (!FIXTURE_MODE && results.length === 0) {
+    console.warn('WARN: parseListingHtml found 0 jpg entries. Listing sample (first 500 chars):');
+    console.warn(html.slice(0, 500));
+  }
+
   return results;
 }
 
