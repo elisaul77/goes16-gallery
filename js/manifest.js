@@ -19,7 +19,10 @@ let _cache = null;
 export async function loadManifest() {
   for (const url of [PRIMARY, FALLBACK]) {
     try {
-      const res = await fetch(url);
+      // credentials:'omit' aligns with <link rel="preload" as="fetch" crossorigin>
+      // (crossorigin=anonymous → credentials omit), so the browser reuses the
+      // preloaded response from cache instead of making a second round-trip.
+      const res = await fetch(url, { credentials: 'omit' });
       if (!res.ok) continue;
       _cache = await res.json();
       _cache._sourceUrl = url;
