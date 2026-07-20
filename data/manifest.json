@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-20T02:16:03.338Z",
+  "generated_utc": "2026-07-20T03:43:17.163Z",
   "source": "https://bart.ideam.gov.co/geotiff/goes16",
   "gifs": {
     "base_url": "https://bart.ideam.gov.co/geotiff/goes16/GIFS",
@@ -119,281 +119,281 @@
       }
     ],
     "verified": {
+      "AMAZONAS_C13": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:07 GMT"
+      },
       "AMAZONAS_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
       "ANTIOQUIA_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "AMAZONAS_C13": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 02:30:09 GMT"
       },
       "AMAZONAS_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 02:20:10 GMT"
       },
       "ANTIOQUIA_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
-      },
-      "ANTIOQUIA_C08": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:07 GMT"
       },
       "ARAUCA_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:07 GMT"
       },
-      "ARAUCA_C08": {
+      "ANTIOQUIA_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "BARRANCABERMEJA_C08": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "ARAUCA_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "BOGOTA_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:10 GMT"
-      },
-      "BARRANCABERMEJA_C13": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
       "BARRANCABERMEJA_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:10 GMT"
+        "last_modified": "Mon, 20 Jul 2026 02:30:09 GMT"
+      },
+      "ARAUCA_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "BARRANCABERMEJA_C13": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:07 GMT"
+      },
+      "BARRANCABERMEJA_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "BOGOTA_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 02:30:09 GMT"
       },
       "BOGOTA_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
-      },
-      "BUCARAMANGA_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:07 GMT"
       },
       "BOGOTA_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
-      "BUCARAMANGA_C08": {
+      "BUCARAMANGA_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 02:30:09 GMT"
       },
       "BUCARAMANGA_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
-      "CARIBE_C08": {
+      "BUCARAMANGA_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
+      },
+      "CARIBE_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
       "CARIBE_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "CARIBE2_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
+      },
+      "CARIBE_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "CARIBE2_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
       "CARIBE2_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
-      },
-      "CHOCO_C13": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "CARIBE_PCT_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "CAUCA_MOCOA_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 02:40:09 GMT"
+      },
+      "CAUCA_MOCOA_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
       "CARIBE_PCT_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
-      "CHOCO_C02": {
+      "CAUCA_MOCOA_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "COLOMBIA_C08": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "CARIBE_PCT_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
+      },
+      "CHOCO_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 02:50:10 GMT"
+      },
+      "CHOCO_C13": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "CHOCO_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "COLOMBIA_C02": {
         "ok": true,
         "last_modified": "Mon, 20 Jul 2026 01:30:12 GMT"
       },
-      "CAUCA_MOCOA_C13": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
-      },
-      "CAUCA_MOCOA_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:10 GMT"
-      },
-      "CAUCA_MOCOA_C08": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "CARIBE_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
       "COLOMBIA_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
-      "CHOCO_C08": {
+      "COLOMBIA_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "CUCUTA_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:10 GMT"
-      },
-      "CORNARE_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:10 GMT"
-      },
-      "CRPA_05_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "CRPA_05_C13": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
-      },
-      "CUCUTA_C13": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
-      },
-      "CRPA_05_C08": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
       "CORNARE_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
-      "CUNDINAMARCA_C02": {
+      "CORNARE_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:10 GMT"
+        "last_modified": "Mon, 20 Jul 2026 02:30:09 GMT"
+      },
+      "CRPA_05_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 02:50:10 GMT"
       },
       "CORNARE_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "CRPA_05_C13": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "CRPA_05_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "CUCUTA_C13": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "CUNDINAMARCA_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 02:30:09 GMT"
+      },
+      "CUCUTA_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 02:30:09 GMT"
       },
       "CUCUTA_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "CUNDINAMARCA_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
-      },
-      "CUNDINAMARCA_C08": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "DUITAMA_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "DUITAMA_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
-      "DUITAMA_C08": {
+      "CUNDINAMARCA_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "DUITAMA_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 02:20:10 GMT"
       },
       "FULLDISK_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "FULLDISK_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "GUAVIARE_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "FULLDISK_C13": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
-      },
-      "GUAVIARE_C08": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "IDIGER_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
       "GUAVIARE_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
-      "CARIBE2_C08": {
+      "FULLDISK_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "GUAVIARE_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 02:20:10 GMT"
+      },
+      "DUITAMA_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "IDIGER_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 02:20:10 GMT"
+      },
+      "GUAVIARE_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "IDIGER_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "IDIGER_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
       "MITU_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "MITU_C02": {
         "ok": true,
         "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
       },
-      "MITU_C08": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
       "MOJANA_C02": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
+      },
+      "MITU_C08": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "MOJANA_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "MOJANA_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
-      },
-      "SAN_ANDRES_C02": {
-        "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       },
       "SAN_ANDRES_C13": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:08 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
+      },
+      "SAN_ANDRES_C02": {
+        "ok": true,
+        "last_modified": "Mon, 20 Jul 2026 03:40:09 GMT"
       },
       "SAN_ANDRES_C08": {
         "ok": true,
-        "last_modified": "Mon, 20 Jul 2026 02:10:09 GMT"
+        "last_modified": "Mon, 20 Jul 2026 03:40:08 GMT"
       }
     }
   },
@@ -404,6 +404,38 @@
           "label": "Visible azul",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607200200.jpg"
@@ -563,38 +595,6 @@
             {
               "ts": "202607191910",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607191910.jpg"
-            },
-            {
-              "ts": "202607191900",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607191900.jpg"
-            },
-            {
-              "ts": "202607191850",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607191850.jpg"
-            },
-            {
-              "ts": "202607191840",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202607191730.jpg"
             }
           ]
         },
@@ -602,6 +602,38 @@
           "label": "Visible rojo",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607200200.jpg"
@@ -761,38 +793,6 @@
             {
               "ts": "202607191810",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607191710.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607191700.jpg"
-            },
-            {
-              "ts": "202607191650",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607191650.jpg"
-            },
-            {
-              "ts": "202607191640",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202607191640.jpg"
             }
           ]
         },
@@ -800,6 +800,42 @@
           "label": "Veggie (0.86 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607200200.jpg"
@@ -955,42 +991,6 @@
             {
               "ts": "202607191930",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191930.jpg"
-            },
-            {
-              "ts": "202607191920",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191920.jpg"
-            },
-            {
-              "ts": "202607191900",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191900.jpg"
-            },
-            {
-              "ts": "202607191850",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191850.jpg"
-            },
-            {
-              "ts": "202607191840",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202607191730.jpg"
             }
           ]
         },
@@ -998,6 +998,34 @@
           "label": "Cirrus (1.37 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607200200.jpg"
@@ -1161,34 +1189,6 @@
             {
               "ts": "202607191840",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202607191710.jpg"
             }
           ]
         },
@@ -1196,6 +1196,38 @@
           "label": "Nieve/hielo (1.6 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607200200.jpg"
@@ -1355,38 +1387,6 @@
             {
               "ts": "202607191910",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607191910.jpg"
-            },
-            {
-              "ts": "202607191900",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607191900.jpg"
-            },
-            {
-              "ts": "202607191850",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607191850.jpg"
-            },
-            {
-              "ts": "202607191840",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202607191730.jpg"
             }
           ]
         },
@@ -1394,6 +1394,38 @@
           "label": "Nube convectica (2.2 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607200200.jpg"
@@ -1553,38 +1585,6 @@
             {
               "ts": "202607191830",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191810",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607191710.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C06/C06_Rad_202607191700.jpg"
             }
           ]
         },
@@ -1592,6 +1592,38 @@
           "label": "IR shortwave (3.9 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607200200.jpg"
@@ -1751,38 +1783,6 @@
             {
               "ts": "202607191830",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607191710.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607191700.jpg"
-            },
-            {
-              "ts": "202607191640",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202607191640.jpg"
             }
           ]
         },
@@ -1790,6 +1790,34 @@
           "label": "Vapor de agua superior",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607200220.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607200200.jpg"
@@ -1953,34 +1981,6 @@
             {
               "ts": "202607191840",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191810",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202607191700.jpg"
             }
           ]
         },
@@ -1988,6 +1988,38 @@
           "label": "Vapor de agua medio",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607200200.jpg"
@@ -2147,38 +2179,6 @@
             {
               "ts": "202607191900",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607191900.jpg"
-            },
-            {
-              "ts": "202607191840",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191810",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C09/C09_Rad_202607191720.jpg"
             }
           ]
         },
@@ -2186,6 +2186,42 @@
           "label": "Vapor de agua inferior",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607200200.jpg"
@@ -2341,42 +2377,6 @@
             {
               "ts": "202607191910",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191910.jpg"
-            },
-            {
-              "ts": "202607191900",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191900.jpg"
-            },
-            {
-              "ts": "202607191840",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191810",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C10/C10_Rad_202607191720.jpg"
             }
           ]
         },
@@ -2384,6 +2384,42 @@
           "label": "IR nube/superficie",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607200200.jpg"
@@ -2539,42 +2575,6 @@
             {
               "ts": "202607191910",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191910.jpg"
-            },
-            {
-              "ts": "202607191900",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191900.jpg"
-            },
-            {
-              "ts": "202607191850",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191850.jpg"
-            },
-            {
-              "ts": "202607191840",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191810",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202607191730.jpg"
             }
           ]
         },
@@ -2582,6 +2582,38 @@
           "label": "IR ozono (9.6 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607200200.jpg"
@@ -2741,38 +2773,6 @@
             {
               "ts": "202607191900",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607191900.jpg"
-            },
-            {
-              "ts": "202607191840",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191810",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C12/C12_Rad_202607191710.jpg"
             }
           ]
         },
@@ -2780,6 +2780,34 @@
           "label": "IR ventana limpia",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607200220.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607200200.jpg"
@@ -2943,34 +2971,6 @@
             {
               "ts": "202607191830",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191810",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607191710.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202607191700.jpg"
             }
           ]
         },
@@ -2978,6 +2978,42 @@
           "label": "IR ventana (11.2 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607200200.jpg"
@@ -3133,42 +3169,6 @@
             {
               "ts": "202607191920",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191920.jpg"
-            },
-            {
-              "ts": "202607191910",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191910.jpg"
-            },
-            {
-              "ts": "202607191900",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191900.jpg"
-            },
-            {
-              "ts": "202607191840",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191840.jpg"
-            },
-            {
-              "ts": "202607191830",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191810",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C14/C14_Rad_202607191720.jpg"
             }
           ]
         },
@@ -3176,6 +3176,38 @@
           "label": "IR CO₂ (12.3 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607200200.jpg"
@@ -3335,38 +3367,6 @@
             {
               "ts": "202607191800",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607191710.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607191700.jpg"
-            },
-            {
-              "ts": "202607191650",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607191650.jpg"
-            },
-            {
-              "ts": "202607191640",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C15/C15_Rad_202607191640.jpg"
             }
           ]
         },
@@ -3374,6 +3374,42 @@
           "label": "IR CO₂ (13.3 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200230.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607200200.jpg"
@@ -3529,42 +3565,6 @@
             {
               "ts": "202607191830",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191830.jpg"
-            },
-            {
-              "ts": "202607191810",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191810.jpg"
-            },
-            {
-              "ts": "202607191800",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191710.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191700.jpg"
-            },
-            {
-              "ts": "202607191650",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191650.jpg"
-            },
-            {
-              "ts": "202607191640",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C16/C16_Rad_202607191640.jpg"
             }
           ]
         },
@@ -3572,6 +3572,38 @@
           "label": "Masa de aire",
           "type": "product",
           "frames": [
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607200230.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607200210.jpg"
+            },
+            {
+              "ts": "202607200200",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607200200.jpg"
+            },
+            {
+              "ts": "202607200150",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607200150.jpg"
+            },
             {
               "ts": "202607200140",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607200140.jpg"
@@ -3731,38 +3763,6 @@
             {
               "ts": "202607191550",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607191550.jpg"
-            },
-            {
-              "ts": "202607191540",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607191540.jpg"
-            },
-            {
-              "ts": "202607191530",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607191530.jpg"
-            },
-            {
-              "ts": "202607191510",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607191510.jpg"
-            },
-            {
-              "ts": "202607191500",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607191500.jpg"
-            },
-            {
-              "ts": "202607191450",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607191450.jpg"
-            },
-            {
-              "ts": "202607191440",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607191440.jpg"
-            },
-            {
-              "ts": "202607191430",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607191430.jpg"
-            },
-            {
-              "ts": "202607191410",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/AIR_MASS/AIR_MASS_202607191410.jpg"
             }
           ]
         },
@@ -3770,6 +3770,38 @@
           "label": "Ceniza volcánica",
           "type": "product",
           "frames": [
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607200210.jpg"
+            },
+            {
+              "ts": "202607200200",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607200200.jpg"
+            },
+            {
+              "ts": "202607200150",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607200150.jpg"
+            },
             {
               "ts": "202607200130",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607200130.jpg"
@@ -3929,38 +3961,6 @@
             {
               "ts": "202607191600",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607191600.jpg"
-            },
-            {
-              "ts": "202607191550",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607191550.jpg"
-            },
-            {
-              "ts": "202607191540",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607191540.jpg"
-            },
-            {
-              "ts": "202607191530",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607191530.jpg"
-            },
-            {
-              "ts": "202607191510",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607191510.jpg"
-            },
-            {
-              "ts": "202607191500",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607191500.jpg"
-            },
-            {
-              "ts": "202607191450",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607191450.jpg"
-            },
-            {
-              "ts": "202607191440",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607191440.jpg"
-            },
-            {
-              "ts": "202607191430",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/ASH/ASH_202607191430.jpg"
             }
           ]
         },
@@ -3968,6 +3968,38 @@
           "label": "Nube diurna fase",
           "type": "product",
           "frames": [
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607200210.jpg"
+            },
+            {
+              "ts": "202607200200",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607200200.jpg"
+            },
+            {
+              "ts": "202607200150",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607200150.jpg"
+            },
             {
               "ts": "202607200140",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607200140.jpg"
@@ -4127,38 +4159,6 @@
             {
               "ts": "202607191600",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607191600.jpg"
-            },
-            {
-              "ts": "202607191550",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607191550.jpg"
-            },
-            {
-              "ts": "202607191540",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607191540.jpg"
-            },
-            {
-              "ts": "202607191530",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607191530.jpg"
-            },
-            {
-              "ts": "202607191510",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607191510.jpg"
-            },
-            {
-              "ts": "202607191500",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607191500.jpg"
-            },
-            {
-              "ts": "202607191450",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607191450.jpg"
-            },
-            {
-              "ts": "202607191430",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607191430.jpg"
-            },
-            {
-              "ts": "202607191410",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CLOUD/DAY_CLOUD_202607191410.jpg"
             }
           ]
         },
@@ -4166,6 +4166,38 @@
           "label": "Convección diurna",
           "type": "product",
           "frames": [
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607200210.jpg"
+            },
+            {
+              "ts": "202607200200",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607200200.jpg"
+            },
+            {
+              "ts": "202607200150",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607200150.jpg"
+            },
             {
               "ts": "202607200130",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607200130.jpg"
@@ -4325,38 +4357,6 @@
             {
               "ts": "202607191530",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607191530.jpg"
-            },
-            {
-              "ts": "202607191510",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607191510.jpg"
-            },
-            {
-              "ts": "202607191500",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607191500.jpg"
-            },
-            {
-              "ts": "202607191450",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607191450.jpg"
-            },
-            {
-              "ts": "202607191430",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607191430.jpg"
-            },
-            {
-              "ts": "202607191410",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607191410.jpg"
-            },
-            {
-              "ts": "202607191350",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607191350.jpg"
-            },
-            {
-              "ts": "202607191340",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607191340.jpg"
-            },
-            {
-              "ts": "202607191330",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DAY_CONV/DAY_CONV_202607191330.jpg"
             }
           ]
         },
@@ -4364,6 +4364,38 @@
           "label": "Polvo y aerosoles",
           "type": "product",
           "frames": [
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607200210.jpg"
+            },
+            {
+              "ts": "202607200200",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607200200.jpg"
+            },
+            {
+              "ts": "202607200150",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607200150.jpg"
+            },
             {
               "ts": "202607200130",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607200130.jpg"
@@ -4523,38 +4555,6 @@
             {
               "ts": "202607191550",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607191550.jpg"
-            },
-            {
-              "ts": "202607191540",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607191540.jpg"
-            },
-            {
-              "ts": "202607191530",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607191530.jpg"
-            },
-            {
-              "ts": "202607191510",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607191510.jpg"
-            },
-            {
-              "ts": "202607191500",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607191500.jpg"
-            },
-            {
-              "ts": "202607191450",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607191450.jpg"
-            },
-            {
-              "ts": "202607191440",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607191440.jpg"
-            },
-            {
-              "ts": "202607191430",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607191430.jpg"
-            },
-            {
-              "ts": "202607191410",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/DUST/DUST_202607191410.jpg"
             }
           ]
         },
@@ -4562,6 +4562,38 @@
           "label": "Temperatura de fuego",
           "type": "product",
           "frames": [
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607200230.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607200210.jpg"
+            },
+            {
+              "ts": "202607200200",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607200200.jpg"
+            },
+            {
+              "ts": "202607200150",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607200150.jpg"
+            },
             {
               "ts": "202607200130",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607200130.jpg"
@@ -4721,38 +4753,6 @@
             {
               "ts": "202607191610",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607191610.jpg"
-            },
-            {
-              "ts": "202607191550",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607191550.jpg"
-            },
-            {
-              "ts": "202607191540",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607191540.jpg"
-            },
-            {
-              "ts": "202607191510",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607191510.jpg"
-            },
-            {
-              "ts": "202607191500",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607191500.jpg"
-            },
-            {
-              "ts": "202607191450",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607191450.jpg"
-            },
-            {
-              "ts": "202607191430",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607191430.jpg"
-            },
-            {
-              "ts": "202607191410",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607191410.jpg"
-            },
-            {
-              "ts": "202607191350",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/FIRE_TEMP/FIRE_TEMP_202607191350.jpg"
             }
           ]
         },
@@ -4760,6 +4760,38 @@
           "label": "Nieve y niebla",
           "type": "product",
           "frames": [
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607200230.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607200210.jpg"
+            },
+            {
+              "ts": "202607200200",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607200200.jpg"
+            },
+            {
+              "ts": "202607200150",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607200150.jpg"
+            },
             {
               "ts": "202607200130",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607200130.jpg"
@@ -4919,38 +4951,6 @@
             {
               "ts": "202607191550",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607191550.jpg"
-            },
-            {
-              "ts": "202607191540",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607191540.jpg"
-            },
-            {
-              "ts": "202607191530",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607191530.jpg"
-            },
-            {
-              "ts": "202607191510",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607191510.jpg"
-            },
-            {
-              "ts": "202607191500",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607191500.jpg"
-            },
-            {
-              "ts": "202607191450",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607191450.jpg"
-            },
-            {
-              "ts": "202607191430",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607191430.jpg"
-            },
-            {
-              "ts": "202607191410",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607191410.jpg"
-            },
-            {
-              "ts": "202607191350",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/SNOW_FOG/SNOW_FOG_202607191350.jpg"
             }
           ]
         },
@@ -4958,6 +4958,38 @@
           "label": "Color verdadero",
           "type": "product",
           "frames": [
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607200210.jpg"
+            },
+            {
+              "ts": "202607200200",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607200200.jpg"
+            },
+            {
+              "ts": "202607200150",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607200150.jpg"
+            },
             {
               "ts": "202607200140",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607200140.jpg"
@@ -5117,38 +5149,6 @@
             {
               "ts": "202607191810",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607191810.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607191710.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607191700.jpg"
-            },
-            {
-              "ts": "202607191650",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607191650.jpg"
-            },
-            {
-              "ts": "202607191640",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202607191640.jpg"
             }
           ]
         },
@@ -5156,6 +5156,38 @@
           "label": "Vapor de agua RGB",
           "type": "product",
           "frames": [
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607200240.jpg"
+            },
+            {
+              "ts": "202607200230",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607200230.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607200210.jpg"
+            },
+            {
+              "ts": "202607200200",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607200200.jpg"
+            },
+            {
+              "ts": "202607200150",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607200150.jpg"
+            },
             {
               "ts": "202607200140",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607200140.jpg"
@@ -5315,38 +5347,6 @@
             {
               "ts": "202607191610",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607191610.jpg"
-            },
-            {
-              "ts": "202607191550",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607191550.jpg"
-            },
-            {
-              "ts": "202607191540",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607191540.jpg"
-            },
-            {
-              "ts": "202607191530",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607191530.jpg"
-            },
-            {
-              "ts": "202607191510",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607191510.jpg"
-            },
-            {
-              "ts": "202607191500",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607191500.jpg"
-            },
-            {
-              "ts": "202607191450",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607191450.jpg"
-            },
-            {
-              "ts": "202607191440",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607191440.jpg"
-            },
-            {
-              "ts": "202607191430",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/WATER_VAPOR/WATER_VAPOR_202607191430.jpg"
             }
           ]
         }
@@ -5358,6 +5358,30 @@
           "label": "Visible rojo (global)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200150",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607200150.jpg"
@@ -5525,30 +5549,6 @@
             {
               "ts": "202607191730",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607191710.jpg"
-            },
-            {
-              "ts": "202607191650",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607191650.jpg"
-            },
-            {
-              "ts": "202607191640",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607191640.jpg"
-            },
-            {
-              "ts": "202607191630",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607191630.jpg"
-            },
-            {
-              "ts": "202607191620",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202607191620.jpg"
             }
           ]
         },
@@ -5556,6 +5556,38 @@
           "label": "Vapor de agua (global)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607200200.jpg"
@@ -5715,38 +5747,6 @@
             {
               "ts": "202607191800",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607191800.jpg"
-            },
-            {
-              "ts": "202607191750",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607191750.jpg"
-            },
-            {
-              "ts": "202607191740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607191710.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607191700.jpg"
-            },
-            {
-              "ts": "202607191650",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607191650.jpg"
-            },
-            {
-              "ts": "202607191640",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202607191640.jpg"
             }
           ]
         },
@@ -5754,6 +5754,38 @@
           "label": "IR ventana (global)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202607200330",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607200330.jpg"
+            },
+            {
+              "ts": "202607200320",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607200320.jpg"
+            },
+            {
+              "ts": "202607200310",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607200310.jpg"
+            },
+            {
+              "ts": "202607200300",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607200300.jpg"
+            },
+            {
+              "ts": "202607200250",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607200250.jpg"
+            },
+            {
+              "ts": "202607200240",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607200240.jpg"
+            },
+            {
+              "ts": "202607200220",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607200220.jpg"
+            },
+            {
+              "ts": "202607200210",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607200210.jpg"
+            },
             {
               "ts": "202607200200",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607200200.jpg"
@@ -5913,38 +5945,6 @@
             {
               "ts": "202607191740",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607191740.jpg"
-            },
-            {
-              "ts": "202607191730",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607191730.jpg"
-            },
-            {
-              "ts": "202607191720",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607191720.jpg"
-            },
-            {
-              "ts": "202607191710",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607191710.jpg"
-            },
-            {
-              "ts": "202607191700",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607191700.jpg"
-            },
-            {
-              "ts": "202607191650",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607191650.jpg"
-            },
-            {
-              "ts": "202607191640",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607191640.jpg"
-            },
-            {
-              "ts": "202607191620",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607191620.jpg"
-            },
-            {
-              "ts": "202607191610",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202607191610.jpg"
             }
           ]
         }
