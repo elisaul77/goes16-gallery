@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-24T10:35:02.061Z",
+  "generated_utc": "2026-09-24T11:03:00.620Z",
   "source": "https://bart.ideam.gov.co/geotiff/goes16",
   "gifs": {
     "base_url": "https://bart.ideam.gov.co/geotiff/goes16/GIFS",
@@ -119,281 +119,281 @@
       }
     ],
     "verified": {
+      "AMAZONAS_C13": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
+      },
       "AMAZONAS_C02": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 08:50:57 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:59 GMT"
+      },
+      "AMAZONAS_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
       "ANTIOQUIA_C02": {
         "ok": true,
         "last_modified": "Thu, 24 Sep 2026 02:01:01 GMT"
       },
-      "AMAZONAS_C13": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "AMAZONAS_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
       "ANTIOQUIA_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
+      },
+      "ANTIOQUIA_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "ARAUCA_C02": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
+      },
+      "BARRANCABERMEJA_C13": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
+      },
+      "ARAUCA_C13": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
+      },
+      "ARAUCA_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
+      },
+      "BARRANCABERMEJA_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
       },
       "BARRANCABERMEJA_C02": {
         "ok": true,
         "last_modified": "Thu, 24 Sep 2026 01:50:56 GMT"
       },
-      "ANTIOQUIA_C08": {
+      "BOGOTA_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "ARAUCA_C02": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "BARRANCABERMEJA_C13": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "ARAUCA_C13": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "ARAUCA_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "BARRANCABERMEJA_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
       "BOGOTA_C02": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 01:50:56 GMT"
-      },
-      "BOGOTA_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "BUCARAMANGA_C02": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 08:50:57 GMT"
-      },
-      "BUCARAMANGA_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:59 GMT"
       },
       "BUCARAMANGA_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
-      "CARIBE2_C02": {
+      "BOGOTA_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "BUCARAMANGA_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
+      },
+      "BUCARAMANGA_C02": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
       "CARIBE_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
-      "CARIBE2_C13": {
+      "CARIBE_C02": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
+      },
+      "CARIBE2_C02": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
       "CARIBE_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "CARIBE2_C13": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
       "CARIBE2_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "CARIBE_PCT_C02": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "CARIBE_PCT_C13": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
       "CAUCA_MOCOA_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
-      "CHOCO_C13": {
+      "CARIBE_PCT_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
+      },
+      "CARIBE_PCT_C02": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
+      },
+      "CARIBE_PCT_C13": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
       "CAUCA_MOCOA_C02": {
         "ok": true,
         "last_modified": "Thu, 24 Sep 2026 07:30:57 GMT"
       },
-      "CHOCO_C08": {
+      "CAUCA_MOCOA_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
+      },
+      "CHOCO_C13": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
       "CHOCO_C02": {
         "ok": true,
         "last_modified": "Thu, 24 Sep 2026 07:30:56 GMT"
       },
+      "CHOCO_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "COLOMBIA_C02": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:59 GMT"
+      },
       "COLOMBIA_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
       "COLOMBIA_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
+      },
+      "CORNARE_C13": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
       "CORNARE_C02": {
         "ok": true,
         "last_modified": "Thu, 24 Sep 2026 07:30:57 GMT"
       },
-      "CORNARE_C13": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "CORNARE_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "CRPA_05_C02": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 02:01:01 GMT"
-      },
-      "CRPA_05_C13": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "CRPA_05_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "BOGOTA_C13": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "CARIBE_C02": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "CARIBE_PCT_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "COLOMBIA_C02": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "CAUCA_MOCOA_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "CUCUTA_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "CUNDINAMARCA_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
       "CUNDINAMARCA_C02": {
         "ok": true,
         "last_modified": "Thu, 24 Sep 2026 02:01:01 GMT"
       },
-      "CUCUTA_C02": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 01:50:56 GMT"
-      },
-      "CUNDINAMARCA_C13": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
       "DUITAMA_C02": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 01:50:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
-      "DUITAMA_C13": {
+      "CRPA_05_C02": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:59 GMT"
       },
-      "FULLDISK_C13": {
+      "CUCUTA_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
-      },
-      "DUITAMA_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "FULLDISK_C02": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
-      },
-      "GUAVIARE_C02": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 08:50:57 GMT"
-      },
-      "FULLDISK_C08": {
-        "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
       },
       "IDIGER_C02": {
         "ok": true,
         "last_modified": "Thu, 24 Sep 2026 01:50:56 GMT"
       },
-      "GUAVIARE_C08": {
+      "CUCUTA_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
-      "IDIGER_C13": {
+      "DUITAMA_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
-      "IDIGER_C08": {
+      "CRPA_05_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:57 GMT"
+      },
+      "CUNDINAMARCA_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:57 GMT"
+      },
+      "FULLDISK_C13": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "GUAVIARE_C02": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:59 GMT"
+      },
+      "CUNDINAMARCA_C13": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "CORNARE_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:57 GMT"
+      },
+      "FULLDISK_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
       "GUAVIARE_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
       },
-      "MOJANA_C08": {
+      "IDIGER_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
       },
-      "MITU_C02": {
+      "GUAVIARE_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 08:50:57 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:57 GMT"
       },
-      "MITU_C08": {
+      "IDIGER_C08": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
-      "MOJANA_C13": {
+      "CUCUTA_C02": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 01:50:56 GMT"
       },
-      "MOJANA_C02": {
+      "CRPA_05_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:55 GMT"
       },
-      "SAN_ANDRES_C02": {
+      "DUITAMA_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:57 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "FULLDISK_C02": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
       "SAN_ANDRES_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
       },
-      "SAN_ANDRES_C08": {
+      "MOJANA_C02": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
-      "CUCUTA_C13": {
+      "MOJANA_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "MOJANA_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "MITU_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "SAN_ANDRES_C02": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
       },
       "MITU_C13": {
         "ok": true,
-        "last_modified": "Thu, 24 Sep 2026 10:30:56 GMT"
+        "last_modified": "Thu, 24 Sep 2026 11:00:56 GMT"
+      },
+      "MITU_C02": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:58 GMT"
+      },
+      "SAN_ANDRES_C08": {
+        "ok": true,
+        "last_modified": "Thu, 24 Sep 2026 11:00:57 GMT"
       }
     }
   },
@@ -404,6 +404,18 @@
           "label": "Visible azul",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202609241040",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202609241040.jpg"
+            },
+            {
+              "ts": "202609241030",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202609241030.jpg"
+            },
+            {
+              "ts": "202609241020",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202609241020.jpg"
+            },
             {
               "ts": "202609241000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202609241000.jpg"
@@ -583,18 +595,6 @@
             {
               "ts": "202609240040",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202609240040.jpg"
-            },
-            {
-              "ts": "202609240030",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202609240030.jpg"
-            },
-            {
-              "ts": "202609240020",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202609240020.jpg"
-            },
-            {
-              "ts": "202609240010",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C01/C01_Rad_202609240010.jpg"
             }
           ]
         },
@@ -602,6 +602,14 @@
           "label": "Visible rojo",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202609241040",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202609241040.jpg"
+            },
+            {
+              "ts": "202609241020",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202609241020.jpg"
+            },
             {
               "ts": "202609241000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202609241000.jpg"
@@ -785,14 +793,6 @@
             {
               "ts": "202609232320",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202609232320.jpg"
-            },
-            {
-              "ts": "202609232310",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202609232310.jpg"
-            },
-            {
-              "ts": "202609232230",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C02/C02_Rad_202609232230.jpg"
             }
           ]
         },
@@ -800,6 +800,14 @@
           "label": "Veggie (0.86 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202609241040",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202609241040.jpg"
+            },
+            {
+              "ts": "202609241020",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202609241020.jpg"
+            },
             {
               "ts": "202609241000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202609241000.jpg"
@@ -983,14 +991,6 @@
             {
               "ts": "202609240000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202609240000.jpg"
-            },
-            {
-              "ts": "202609232330",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202609232330.jpg"
-            },
-            {
-              "ts": "202609232320",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C03/C03_Rad_202609232320.jpg"
             }
           ]
         },
@@ -998,6 +998,10 @@
           "label": "Cirrus (1.37 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202609241020",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202609241020.jpg"
+            },
             {
               "ts": "202609240940",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202609240940.jpg"
@@ -1185,10 +1189,6 @@
             {
               "ts": "202609232230",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202609232230.jpg"
-            },
-            {
-              "ts": "202609232220",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C04/C04_Rad_202609232220.jpg"
             }
           ]
         },
@@ -1196,6 +1196,14 @@
           "label": "Nieve/hielo (1.6 µm)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202609241040",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202609241040.jpg"
+            },
+            {
+              "ts": "202609241020",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202609241020.jpg"
+            },
             {
               "ts": "202609241000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202609241000.jpg"
@@ -1379,14 +1387,6 @@
             {
               "ts": "202609232230",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202609232230.jpg"
-            },
-            {
-              "ts": "202609232220",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202609232220.jpg"
-            },
-            {
-              "ts": "202609232210",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C05/C05_Rad_202609232210.jpg"
             }
           ]
         },
@@ -1593,6 +1593,10 @@
           "type": "channel",
           "frames": [
             {
+              "ts": "202609241020",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202609241020.jpg"
+            },
+            {
               "ts": "202609241000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202609241000.jpg"
             },
@@ -1779,10 +1783,6 @@
             {
               "ts": "202609232230",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202609232230.jpg"
-            },
-            {
-              "ts": "202609232220",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C07/C07_Rad_202609232220.jpg"
             }
           ]
         },
@@ -1790,6 +1790,10 @@
           "label": "Vapor de agua superior",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202609241040",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202609241040.jpg"
+            },
             {
               "ts": "202609241000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202609241000.jpg"
@@ -1977,10 +1981,6 @@
             {
               "ts": "202609232000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202609232000.jpg"
-            },
-            {
-              "ts": "202609231940",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C08/C08_Rad_202609231940.jpg"
             }
           ]
         },
@@ -2385,6 +2385,10 @@
           "type": "channel",
           "frames": [
             {
+              "ts": "202609241020",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202609241020.jpg"
+            },
+            {
               "ts": "202609240940",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202609240940.jpg"
             },
@@ -2571,10 +2575,6 @@
             {
               "ts": "202609231340",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202609231340.jpg"
-            },
-            {
-              "ts": "202609231330",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C11/C11_Rad_202609231330.jpg"
             }
           ]
         },
@@ -2781,6 +2781,10 @@
           "type": "channel",
           "frames": [
             {
+              "ts": "202609241040",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202609241040.jpg"
+            },
+            {
               "ts": "202609241000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202609241000.jpg"
             },
@@ -2967,10 +2971,6 @@
             {
               "ts": "202609230820",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202609230820.jpg"
-            },
-            {
-              "ts": "202609230740",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/C13/C13_Rad_202609230740.jpg"
             }
           ]
         },
@@ -4959,6 +4959,10 @@
           "type": "product",
           "frames": [
             {
+              "ts": "202609241020",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202609241020.jpg"
+            },
+            {
               "ts": "202609240950",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202609240950.jpg"
             },
@@ -5145,10 +5149,6 @@
             {
               "ts": "202609230900",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202609230900.jpg"
-            },
-            {
-              "ts": "202609230850",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Colombia/TRUE_COLOR/TRUE_COLOR_202609230850.jpg"
             }
           ]
         },
@@ -5359,6 +5359,10 @@
           "type": "channel",
           "frames": [
             {
+              "ts": "202609241030",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202609241030.jpg"
+            },
+            {
               "ts": "202609241000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202609241000.jpg"
             },
@@ -5545,10 +5549,6 @@
             {
               "ts": "202609230440",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202609230440.jpg"
-            },
-            {
-              "ts": "202609230430",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C02/C02_Rad_202609230430.jpg"
             }
           ]
         },
@@ -5556,6 +5556,14 @@
           "label": "Vapor de agua (global)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202609241040",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202609241040.jpg"
+            },
+            {
+              "ts": "202609241030",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202609241030.jpg"
+            },
             {
               "ts": "202609240940",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202609240940.jpg"
@@ -5739,14 +5747,6 @@
             {
               "ts": "202609231040",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202609231040.jpg"
-            },
-            {
-              "ts": "202609231030",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202609231030.jpg"
-            },
-            {
-              "ts": "202609231020",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C08/C08_Rad_202609231020.jpg"
             }
           ]
         },
@@ -5754,6 +5754,10 @@
           "label": "IR ventana (global)",
           "type": "channel",
           "frames": [
+            {
+              "ts": "202609241040",
+              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202609241040.jpg"
+            },
             {
               "ts": "202609241000",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202609241000.jpg"
@@ -5941,10 +5945,6 @@
             {
               "ts": "202609231010",
               "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202609231010.jpg"
-            },
-            {
-              "ts": "202609230820",
-              "url": "https://bart.ideam.gov.co/geotiff/goes16/Global/C13/C13_Rad_202609230820.jpg"
             }
           ]
         }
