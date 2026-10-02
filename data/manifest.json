@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-02T08:40:54.498Z",
+  "generated_utc": "2026-10-02T09:03:21.612Z",
   "source": "https://bart.ideam.gov.co/geotiff/goes16",
   "gifs": {
     "base_url": "https://bart.ideam.gov.co/geotiff/goes16/GIFS",
@@ -119,17 +119,53 @@
       }
     ],
     "verified": {
-      "AMAZONAS_C08": {
+      "ARAUCA_C02": {
         "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:03 GMT"
+        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
+      },
+      "AMAZONAS_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
+      },
+      "BOGOTA_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
+      },
+      "ANTIOQUIA_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 09:01:01 GMT"
       },
       "ANTIOQUIA_C02": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
       },
-      "AMAZONAS_C13": {
+      "ARAUCA_C13": {
         "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
+        "last_modified": "Fri, 02 Oct 2026 09:01:01 GMT"
+      },
+      "ARAUCA_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:03 GMT"
+      },
+      "BARRANCABERMEJA_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 01:41:02 GMT"
+      },
+      "BARRANCABERMEJA_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
+      },
+      "BARRANCABERMEJA_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
+      },
+      "BOGOTA_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
+      },
+      "AMAZONAS_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:03 GMT"
       },
       "AMAZONAS_C02": {
         "ok": true,
@@ -139,41 +175,9 @@
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:41:01 GMT"
       },
-      "BARRANCABERMEJA_C08": {
+      "BOGOTA_C08": {
         "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
-      },
-      "ARAUCA_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
-      },
-      "ARAUCA_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
-      },
-      "ANTIOQUIA_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
-      },
-      "BARRANCABERMEJA_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 01:41:02 GMT"
-      },
-      "BARRANCABERMEJA_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
-      },
-      "ARAUCA_C08": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:03 GMT"
-      },
-      "BOGOTA_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
-      },
-      "BOGOTA_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
+        "last_modified": "Fri, 02 Oct 2026 08:41:01 GMT"
       },
       "BUCARAMANGA_C08": {
         "ok": true,
@@ -183,19 +187,35 @@
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
       },
+      "BUCARAMANGA_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 09:01:02 GMT"
+      },
+      "CARIBE2_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:03 GMT"
+      },
       "BUCARAMANGA_C02": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
       },
-      "BUCARAMANGA_C13": {
+      "CARIBE_PCT_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
+      },
+      "CAUCA_MOCOA_C13": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
       },
-      "BOGOTA_C08": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:41:01 GMT"
-      },
       "CARIBE_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
+      },
+      "CHOCO_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
+      },
+      "CARIBE2_C02": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
       },
@@ -203,23 +223,7 @@
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
       },
-      "CAUCA_MOCOA_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
-      },
-      "CARIBE2_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
-      },
-      "CARIBE2_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
-      },
-      "CHOCO_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
-      },
-      "CAUCA_MOCOA_C08": {
+      "COLOMBIA_C02": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
       },
@@ -227,37 +231,37 @@
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:03 GMT"
       },
-      "CARIBE_PCT_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
-      },
-      "CHOCO_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
-      },
-      "COLOMBIA_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
-      },
-      "CORNARE_C08": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
-      },
-      "COLOMBIA_C13": {
+      "CARIBE2_C13": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
       },
-      "CORNARE_C13": {
+      "CAUCA_MOCOA_C02": {
         "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
+        "last_modified": "Fri, 02 Oct 2026 01:41:02 GMT"
       },
       "COLOMBIA_C08": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
       },
-      "CHOCO_C08": {
+      "COLOMBIA_C13": {
         "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
+        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
+      },
+      "CARIBE_PCT_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
+      },
+      "CORNARE_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
+      },
+      "CAUCA_MOCOA_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
+      },
+      "CHOCO_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 09:01:02 GMT"
       },
       "CORNARE_C02": {
         "ok": true,
@@ -267,29 +271,33 @@
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 07:51:01 GMT"
       },
-      "CRPA_05_C08": {
+      "CORNARE_C08": {
         "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 07:51:02 GMT"
+        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
+      },
+      "CUNDINAMARCA_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
       },
       "CRPA_05_C02": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
       },
-      "CARIBE2_C08": {
+      "CRPA_05_C08": {
         "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:03 GMT"
+        "last_modified": "Fri, 02 Oct 2026 07:51:02 GMT"
       },
-      "CAUCA_MOCOA_C02": {
+      "CUNDINAMARCA_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
+      },
+      "CUCUTA_C02": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 01:41:02 GMT"
       },
-      "CARIBE_PCT_C02": {
+      "CUCUTA_C13": {
         "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
-      },
-      "DUITAMA_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
+        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
       },
       "CUNDINAMARCA_C08": {
         "ok": true,
@@ -299,99 +307,91 @@
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
       },
-      "CUCUTA_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
-      },
-      "CUCUTA_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 01:41:02 GMT"
-      },
-      "CUCUTA_C08": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
-      },
-      "CUNDINAMARCA_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
-      },
-      "CUNDINAMARCA_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
-      },
-      "FULLDISK_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:41:01 GMT"
-      },
-      "GUAVIARE_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
-      },
-      "GUAVIARE_C08": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
-      },
       "FULLDISK_C08": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:03 GMT"
-      },
-      "GUAVIARE_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
-      },
-      "MITU_C13": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
-      },
-      "MITU_C08": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
-      },
-      "MITU_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
-      },
-      "IDIGER_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
-      },
-      "IDIGER_C08": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 07:51:03 GMT"
-      },
-      "MOJANA_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
-      },
-      "MOJANA_C08": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
-      },
-      "SAN_ANDRES_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
-      },
-      "FULLDISK_C02": {
-        "ok": true,
-        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
       },
       "DUITAMA_C08": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:03 GMT"
       },
+      "FULLDISK_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:41:01 GMT"
+      },
+      "CHOCO_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
+      },
+      "GUAVIARE_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
+      },
+      "MOJANA_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
+      },
+      "MOJANA_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
+      },
+      "GUAVIARE_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:01 GMT"
+      },
+      "IDIGER_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 07:51:03 GMT"
+      },
+      "MITU_C13": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
+      },
+      "SAN_ANDRES_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
+      },
       "IDIGER_C13": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:41:01 GMT"
+      },
+      "IDIGER_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
+      },
+      "MOJANA_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
+      },
+      "CUCUTA_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
       },
       "SAN_ANDRES_C13": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:21:01 GMT"
       },
+      "FULLDISK_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
+      },
+      "MITU_C08": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
+      },
       "SAN_ANDRES_C08": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
       },
-      "MOJANA_C13": {
+      "DUITAMA_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 01:51:00 GMT"
+      },
+      "MITU_C02": {
+        "ok": true,
+        "last_modified": "Fri, 02 Oct 2026 08:11:04 GMT"
+      },
+      "GUAVIARE_C08": {
         "ok": true,
         "last_modified": "Fri, 02 Oct 2026 08:11:02 GMT"
       }
